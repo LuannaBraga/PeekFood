@@ -1,1 +1,3 @@
 O projeto do Peek Food foi o desenvolvido 100% por mim para o curso de conclusão de HTML e CSS. O projeto foi um desafio pessoal para por em prática tudo o que eu havia aprendido ao longo do curso de html e css. O carrinho foi feito seguindo o tutorial do fernandev ultilizando SASS, a grande vantagem do Sass é que, justamente por ser um pré-processador, ele nos permite usar variáveis, aninhamentos, mixins e funções para escrever código de forma mais limpa, rápida e com mais aproveitamento!
+
+Link: https://luannabraga.github.io/PeekFood/
