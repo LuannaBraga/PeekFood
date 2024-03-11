@@ -1,6 +1,6 @@
 .sobre{
     width: 100%;
-    height: 70vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,7 +8,7 @@
 }
 
 .sobre-img{
-    width: 752px;
+    max-width: 752px;
     padding: 40px;
 }
 
@@ -29,4 +29,10 @@
 
 .sobre p{
     margin-bottom: 4rem;
+}
+
+@media (max-width: 900px) {
+    .sobre{
+        flex-direction: column;
+    }
 }

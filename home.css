@@ -1,6 +1,6 @@
 .home{
     width: 100%;
-    height: 70vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,7 +8,7 @@
 }
 
 .home-img{
-    width: 752px;
+    max-width: 752px;
     padding: 40px;
    }
 
@@ -45,3 +45,10 @@
 .botao:hover{
     background: #fc4c35;
 }
+
+@media (max-width: 900px) {
+    .home{
+        flex-direction: column;
+    }
+}
+    
